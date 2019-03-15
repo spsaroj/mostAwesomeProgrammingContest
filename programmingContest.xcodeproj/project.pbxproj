@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0BE169223ADD6500583909 /* contest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BE168223ADD6500583909 /* contest.swift */; };
+		3F0BE16B223AE18B00583909 /* SchoolsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BE16A223AE18B00583909 /* SchoolsTableViewController.swift */; };
+		3F0BE16D223AE1B200583909 /* TeamsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BE16C223AE1B200583909 /* TeamsTableViewController.swift */; };
+		3F0BE16F223AE1CB00583909 /* StudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BE16E223AE1CB00583909 /* StudentsViewController.swift */; };
+		3F0BE171223AE1E000583909 /* NewSchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BE170223AE1E000583909 /* NewSchoolViewController.swift */; };
+		3F0BE173223AE20A00583909 /* NewTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BE172223AE20A00583909 /* NewTeamViewController.swift */; };
 		3F8868DA2239EAA200E947C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8868D92239EAA200E947C6 /* AppDelegate.swift */; };
-		3F8868DC2239EAA200E947C6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8868DB2239EAA200E947C6 /* FirstViewController.swift */; };
-		3F8868DE2239EAA200E947C6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8868DD2239EAA200E947C6 /* SecondViewController.swift */; };
 		3F8868E12239EAA200E947C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8868DF2239EAA200E947C6 /* Main.storyboard */; };
 		3F8868E32239EAA700E947C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8868E22239EAA700E947C6 /* Assets.xcassets */; };
 		3F8868E62239EAA700E947C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8868E42239EAA700E947C6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F0BE168223ADD6500583909 /* contest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contest.swift; sourceTree = "<group>"; };
+		3F0BE16A223AE18B00583909 /* SchoolsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolsTableViewController.swift; sourceTree = "<group>"; };
+		3F0BE16C223AE1B200583909 /* TeamsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsTableViewController.swift; sourceTree = "<group>"; };
+		3F0BE16E223AE1CB00583909 /* StudentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsViewController.swift; sourceTree = "<group>"; };
+		3F0BE170223AE1E000583909 /* NewSchoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSchoolViewController.swift; sourceTree = "<group>"; };
+		3F0BE172223AE20A00583909 /* NewTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTeamViewController.swift; sourceTree = "<group>"; };
 		3F8868D62239EAA200E947C6 /* programmingContest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = programmingContest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8868D92239EAA200E947C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F8868DB2239EAA200E947C6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		3F8868DD2239EAA200E947C6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		3F8868E02239EAA200E947C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F8868E22239EAA700E947C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F8868E52239EAA700E947C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,12 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				3F8868D92239EAA200E947C6 /* AppDelegate.swift */,
-				3F8868DB2239EAA200E947C6 /* FirstViewController.swift */,
-				3F8868DD2239EAA200E947C6 /* SecondViewController.swift */,
 				3F8868DF2239EAA200E947C6 /* Main.storyboard */,
 				3F8868E22239EAA700E947C6 /* Assets.xcassets */,
 				3F8868E42239EAA700E947C6 /* LaunchScreen.storyboard */,
 				3F8868E72239EAA700E947C6 /* Info.plist */,
+				3F0BE168223ADD6500583909 /* contest.swift */,
+				3F0BE16A223AE18B00583909 /* SchoolsTableViewController.swift */,
+				3F0BE16C223AE1B200583909 /* TeamsTableViewController.swift */,
+				3F0BE16E223AE1CB00583909 /* StudentsViewController.swift */,
+				3F0BE170223AE1E000583909 /* NewSchoolViewController.swift */,
+				3F0BE172223AE20A00583909 /* NewTeamViewController.swift */,
 			);
 			path = programmingContest;
 			sourceTree = "<group>";
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F8868DE2239EAA200E947C6 /* SecondViewController.swift in Sources */,
+				3F0BE16B223AE18B00583909 /* SchoolsTableViewController.swift in Sources */,
+				3F0BE171223AE1E000583909 /* NewSchoolViewController.swift in Sources */,
+				3F0BE169223ADD6500583909 /* contest.swift in Sources */,
+				3F0BE16D223AE1B200583909 /* TeamsTableViewController.swift in Sources */,
+				3F0BE173223AE20A00583909 /* NewTeamViewController.swift in Sources */,
+				3F0BE16F223AE1CB00583909 /* StudentsViewController.swift in Sources */,
 				3F8868DA2239EAA200E947C6 /* AppDelegate.swift in Sources */,
-				3F8868DC2239EAA200E947C6 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
