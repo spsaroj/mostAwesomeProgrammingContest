@@ -2,8 +2,8 @@
 //  contest.swift
 //  programmingContest
 //
-//  Created by student on 3/14/19.
-//  Copyright © 2019 student. All rights reserved.
+//  Created by s527993 on 3/14/19.
+//  Copyright © 2019 s527993. All rights reserved.
 //
 
 import Foundation

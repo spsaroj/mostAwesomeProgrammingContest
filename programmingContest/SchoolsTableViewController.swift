@@ -2,8 +2,8 @@
 //  SchoolsTableViewController.swift
 //  programmingContest
 //
-//  Created by student on 3/14/19.
-//  Copyright © 2019 student. All rights reserved.
+//  Created by s527993 on 3/14/19.
+//  Copyright © 2019 s527993. All rights reserved.
 //
 
 import UIKit
@@ -87,7 +87,7 @@ class SchoolsTableViewController: UITableViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        print(segue.identifier,segue.destination)
+        //print(segue.identifier,segue.destination)
         if segue.identifier == "selectedSchool"{
             let teamsTableViewController = segue.destination as! TeamsTableViewController
             teamsTableViewController.selectedSchool = Schools.shared[(tableView.indexPathForSelectedRow?.row)!]
