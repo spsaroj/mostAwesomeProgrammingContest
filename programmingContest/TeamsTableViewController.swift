@@ -10,6 +10,7 @@ import UIKit
 
 class TeamsTableViewController: UITableViewController {
     var selectedSchool:School!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Uncomment the following line to preserve selection between presentations
@@ -19,6 +20,7 @@ class TeamsTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
         
     }
+    
     override func viewWillAppear(_ animated: Bool) {
         tableView.reloadData()
     }
@@ -88,7 +90,7 @@ class TeamsTableViewController: UITableViewController {
             let teamsTableViewController = segue.destination as! StudentsViewController
             teamsTableViewController.selectedTeam = selectedSchool.teams[(tableView.indexPathForSelectedRow?.row)!]
         }
-        else{
+        else if segue.identifier == "addTeam"{
             let newTeamViewController = segue.destination as! NewTeamViewController
             newTeamViewController.newTeam = selectedSchool
         }

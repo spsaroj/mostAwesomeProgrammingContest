@@ -15,9 +15,10 @@ class StudentsViewController: UIViewController {
     @IBOutlet weak var student2TF: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-//        studentTF0.text = String(selectedTeam.students)
-//        student1TF.text = String(selectedTeam.students)
-//        student2TF.text = String(selectedTeam.students)
+        let display = selectedTeam.students
+        studentTF0.text = display[0]
+        student1TF.text = display[1]
+        student2TF.text = display[2]
         // Do any additional setup after loading the view.
     }
     
